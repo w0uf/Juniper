@@ -1,0 +1,341 @@
+{
+  "grid_size": 40,
+  "version": "2.0",
+  "last_updated": "2026-02-09T21:20:19.581328",
+  "sequences": {
+    "36-4-24-6-12-3-15-30-2-10-5-40-8-16-32-1-7-21": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:49:49.815102",
+      "last_updated": "2026-02-08T19:49:49.815117"
+    },
+    "36-4-24-6-12-3-15-30-2-10-5-40-8-16-32-1-7-35": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:49:49.815824",
+      "last_updated": "2026-02-08T19:49:49.815825"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-9-18": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.594334",
+      "last_updated": "2026-02-08T19:53:33.594341"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-9-27": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.594967",
+      "last_updated": "2026-02-08T19:53:33.594968"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-11-22": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.594987",
+      "last_updated": "2026-02-08T19:53:33.594988"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-11-33": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.594996",
+      "last_updated": "2026-02-08T19:53:33.594997"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-13-26": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595011",
+      "last_updated": "2026-02-08T19:53:33.595012"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-13-39": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595020",
+      "last_updated": "2026-02-08T19:53:33.595021"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-14-28": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595033",
+      "last_updated": "2026-02-08T19:53:33.595034"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-15": {
+      "outcome": "win",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 1,
+      "losses": 0,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595042",
+      "last_updated": "2026-02-08T19:53:33.595043"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-16-32": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595058",
+      "last_updated": "2026-02-08T19:53:33.595059"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-17-34": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595072",
+      "last_updated": "2026-02-08T19:53:33.595072"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-19-38": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595096",
+      "last_updated": "2026-02-08T19:53:33.595096"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-23": {
+      "outcome": "win",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 1,
+      "losses": 0,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595708",
+      "last_updated": "2026-02-08T19:53:33.595709"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-25": {
+      "outcome": "win",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 1,
+      "losses": 0,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595719",
+      "last_updated": "2026-02-08T19:53:33.595720"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-28-14": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595753",
+      "last_updated": "2026-02-08T19:53:33.595753"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-29": {
+      "outcome": "win",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 1,
+      "losses": 0,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595761",
+      "last_updated": "2026-02-08T19:53:33.595762"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-31": {
+      "outcome": "win",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 1,
+      "losses": 0,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595770",
+      "last_updated": "2026-02-08T19:53:33.595771"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-32-16": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595783",
+      "last_updated": "2026-02-08T19:53:33.595784"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-34-17": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595806",
+      "last_updated": "2026-02-08T19:53:33.595807"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-37": {
+      "outcome": "win",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 1,
+      "losses": 0,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595815",
+      "last_updated": "2026-02-08T19:53:33.595815"
+    },
+    "20-4-36-6-3-21-7-35-5-10-30-2-40-8-24-12-1-38-19": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-08T19:53:33.595828",
+      "last_updated": "2026-02-08T19:53:33.595829"
+    },
+    "36-9-27-3-12-24-4-40-8-32-16-2-10-30-6-1-5-15": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-09T10:15:31.703247",
+      "last_updated": "2026-02-09T10:15:31.703276"
+    },
+    "36-9-27-3-12-24-4-40-8-32-16-2-10-30-6-1-5-20": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-09T10:15:31.706134",
+      "last_updated": "2026-02-09T10:15:31.706135"
+    },
+    "36-9-27-3-12-24-4-40-8-32-16-2-10-30-6-1-5-25": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-09T10:15:31.706148",
+      "last_updated": "2026-02-09T10:15:31.706149"
+    },
+    "36-9-27-3-12-24-4-40-8-32-16-2-10-30-6-1-7-21": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-09T10:15:31.706183",
+      "last_updated": "2026-02-09T10:15:31.706183"
+    },
+    "40-4-24-12-36-2-38-19-1-5-25": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-09T10:16:35.500157",
+      "last_updated": "2026-02-09T10:16:35.500185"
+    },
+    "40-4-24-12-36-2-38-19-1-30-15-5-25": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-09T10:16:53.219941",
+      "last_updated": "2026-02-09T10:16:53.219969"
+    },
+    "40-4-24-12-36-2-38-19-1-30-15-3-9-18-6": {
+      "outcome": "lose",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 0,
+      "losses": 1,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-09T10:17:10.300419",
+      "last_updated": "2026-02-09T10:17:10.300448"
+    },
+    "40-4-24-12-36-2-38-19-1-30-15-3-9-27": {
+      "outcome": "win",
+      "confidence": 1.0,
+      "depth": 2,
+      "wins": 1,
+      "losses": 0,
+      "verified_count": 1,
+      "is_terminal": true,
+      "created": "2026-02-09T10:17:10.300524",
+      "last_updated": "2026-02-09T10:17:10.300529"
+    }
+  },
+  "stats": {
+    "total_sequences": 30,
+    "coverage": 0.0
+  }
+}

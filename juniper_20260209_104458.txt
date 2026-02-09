@@ -1,0 +1,17 @@
+[Event "Juniper Green"]
+[Site "JuniperU v2.0 AI"]
+[Date "2026.02.09"]
+[Grid "20"]
+[TimeControl "5.0s"]
+[FirstPlayer "Joueur"]
+[SecondPlayer "IA"]
+[Result "0-1"]
+
+1. 8 16
+2. 4 20
+3. 10 5
+4. 15 3
+5. 6 12
+6. 2 18
+7. 9 1
+8. 19 0-1

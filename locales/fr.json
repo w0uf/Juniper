@@ -1,0 +1,96 @@
+{
+  "app.title": "Juniper-U",
+  
+  "config.title": "Configuration",
+  "config.language": "🌐 Langue",
+  "config.player": "👤 Joueur",
+  "config.grid": "📏 Grille",
+  "config.time": "⏱️  Temps max/coup",
+  "config.difficulty": "🎯 Niveau",
+  "config.beginner": "👁️  Mode Débutant",
+  "config.beginner_tooltip": "Visualiser les possibilités",
+  
+  "grid.classic": "Classique (1-20)",
+  "grid.medium": "Medium (1-30)",
+  "grid.large": "Large (1-40)",
+  "grid.xl": "XL (1-50)",
+  "grid.xxl": "XXL (1-100)",
+  
+  "difficulty.easy": "Facile",
+  "difficulty.medium": "Moyen",
+  "difficulty.hard": "Difficile",
+  "difficulty.expert": "Expert",
+  
+  "button.new_game": "⚡ Nouvelle Partie",
+  "button.resign": "🏳️  Abandonner",
+  "button.history": "📜 Historique",
+  "button.copy": "Copier",
+  "button.export": "Exporter...",
+  "button.close": "Fermer",
+  "button.cancel": "Annuler",
+  "button.ok": "OK",
+  "button.yes": "Oui",
+  "button.no": "Non",
+  
+  "game.your_turn": "👉 À votre tour !",
+  "game.ai_thinking": "⏳ L'IA réfléchit...",
+  "game.starts": "commence",
+  "game.last_move": "Dernier coup",
+  "game.click_new_game": "Cliquez sur 'Nouvelle Partie' pour commencer",
+  "game.you": "VOUS",
+  "game.ai": "IA",
+  
+  "score.label": "📊 SCORE",
+  "score.games": "Parties",
+  
+  "legend.your_moves": "🟢 Vos coups",
+  "legend.ai_moves": "🔴 Coups de l'IA",
+  
+  "history.title": "📜 Historique de la partie",
+  "history.no_moves": "Aucun coup joué",
+  "history.moves": "coups",
+  "history.move": "coup",
+  "history.legend": "Légende : 🟢 VOUS    🔴 IA",
+  "history.copied": "Historique copié dans le presse-papier !",
+  "history.copied_title": "Copié",
+  
+  "export.title": "Exporter la partie",
+  "export.player_name": "Nom du joueur :",
+  "export.success": "Partie exportée avec succès !",
+  "export.success_title": "Exporté",
+  "export.error": "Erreur lors de l'export de la partie.",
+  "export.error_title": "Erreur",
+  "export.prompt_title": "Partie terminée",
+  "export.prompt_message": "Voulez-vous exporter cette partie ?",
+  
+  "menu.help": "Aide",
+  "menu.ai_stats": "Bilan IA 📊",
+  "menu.quit": "Quitter",
+  
+  "help.title": "❓ Aide - Juniper",
+  "help.content": "🎮 LE JEU DE JUNIPER GREEN 🎮\n\n📋 RÈGLES :\n• Choisissez un nombre entre 1 et N (selon la grille)\n• À tour de rôle, chaque joueur choisit un MULTIPLE \n  ou un DIVISEUR du nombre précédent\n• Chaque nombre ne peut être joué qu'UNE SEULE FOIS\n• Le premier nombre doit être PAIR !\n• Le joueur qui ne peut plus jouer perd la manche\n\n⏱️  TEMPS PAR COUP :\n• 5s  : Rapide, bon niveau\n• 10s : Équilibré, très bon niveau (recommandé)\n• 30s : Maximum, quasi-optimal\n\nL'IA utilise le temps pour :\n→ Calculer le meilleur coup\n→ Enrichir sa base de connaissances\n→ S'améliorer continuellement\n\n📏 GRILLES :\n• 20-30 : Minimax complet possible\n• 40+    : Heuristique + apprentissage\n\n👁️  MODE DÉBUTANT :\nActive la visualisation des coups jouables\n(idéal pour apprendre)\n\n📜 HISTORIQUE :\nFenêtre flottante montrant tous les coups joués\navec couleurs (🟢 vous, 🔴 IA)\n\n💾 EXPORT :\nSauvegardez vos parties au format .txt\n(Juniper Game Record)\n\n👨‍💻 DÉVELOPPEMENT :\nCréé par Wouf (2018-2026)\n\n🌐 Plus d'infos : site2wouf.fr/juniper",
+  
+  "warning.grid100.title": "Grille 100",
+  "warning.grid100.message": "💡 Grille 100 :\n\n• Parties très longues (30+ coups)\n• Mode Expert désactivé\n• Mode Difficile disponible mais peut être lent (~20s/coup)",
+  
+  "warning.hard100.title": "⚠️  Attention",
+  "warning.hard100.message": "Mode Difficile sur grille 100 :\n\n• ~20 secondes par coup de l'IA\n• ~10 minutes de calcul IA par partie\n\nÊtes-vous sûr de vouloir continuer ?",
+  
+  "resign.title": "🏳️  Abandonner ?",
+  "resign.message": "Abandonner la partie en cours ?\n(Victoire accordée à l'IA)",
+  
+  "victory.title": "🏆 Victoire !",
+  "victory.message": "🎉 Félicitations !\n\nVous avez gagné cette manche !",
+  
+  "defeat.title": "Défaite",
+  "defeat.message": "💻 L'IA a gagné cette manche !",
+  
+  "stats.title": "Bilan d'Apprentissage IA",
+  "stats.header": "📊 Bilan d'Apprentissage de l'IA",
+  "stats.never": "Jamais",
+  "stats.no_data": "Aucune donnée d'apprentissage disponible.\nJouez quelques parties pour voir les statistiques !",
+  "stats.info": "💡 Plus vous jouez, plus l'IA s'améliore !",
+  
+  "error.no_lang.title": "Fichiers de langue manquants",
+  "error.no_lang.message": "Les fichiers de langue sont introuvables !\n\nAssurez-vous que le dossier 'locales' existe avec :\n- locales/fr.json\n- locales/en.json\n\nLangue par défaut (français) utilisée."
+}

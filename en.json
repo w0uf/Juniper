@@ -1,0 +1,96 @@
+{
+  "app.title": "Juniper-U",
+  
+  "config.title": "Settings",
+  "config.language": "🌐 Language",
+  "config.player": "👤 Player",
+  "config.grid": "📏 Grid",
+  "config.time": "⏱️  Max time/move",
+  "config.difficulty": "🎯 Difficulty",
+  "config.beginner": "👁️  Beginner Mode",
+  "config.beginner_tooltip": "Show available moves",
+  
+  "grid.classic": "Classic (1-20)",
+  "grid.medium": "Medium (1-30)",
+  "grid.large": "Large (1-40)",
+  "grid.xl": "XL (1-50)",
+  "grid.xxl": "XXL (1-100)",
+  
+  "difficulty.easy": "Easy",
+  "difficulty.medium": "Medium",
+  "difficulty.hard": "Hard",
+  "difficulty.expert": "Expert",
+  
+  "button.new_game": "⚡ New Game",
+  "button.resign": "🏳️  Resign",
+  "button.history": "📜 History",
+  "button.copy": "Copy",
+  "button.export": "Export...",
+  "button.close": "Close",
+  "button.cancel": "Cancel",
+  "button.ok": "OK",
+  "button.yes": "Yes",
+  "button.no": "No",
+  
+  "game.your_turn": "👉 Your turn!",
+  "game.ai_thinking": "⏳ AI is thinking...",
+  "game.starts": "starts",
+  "game.last_move": "Last move",
+  "game.click_new_game": "Click 'New Game' to start",
+  "game.you": "YOU",
+  "game.ai": "AI",
+  
+  "score.label": "📊 SCORE",
+  "score.games": "Games",
+  
+  "legend.your_moves": "🟢 Your moves",
+  "legend.ai_moves": "🔴 AI moves",
+  
+  "history.title": "📜 Game History",
+  "history.no_moves": "No moves yet",
+  "history.moves": "moves",
+  "history.move": "move",
+  "history.legend": "Legend: 🟢 YOU    🔴 AI",
+  "history.copied": "History copied to clipboard!",
+  "history.copied_title": "Copied",
+  
+  "export.title": "Export Game",
+  "export.player_name": "Player name:",
+  "export.success": "Game exported successfully!",
+  "export.success_title": "Exported",
+  "export.error": "Error exporting game.",
+  "export.error_title": "Error",
+  "export.prompt_title": "Game Finished",
+  "export.prompt_message": "Do you want to export this game?",
+  
+  "menu.help": "Help",
+  "menu.ai_stats": "AI Stats 📊",
+  "menu.quit": "Quit",
+  
+  "help.title": "❓ Help - Juniper",
+  "help.content": "🎮 JUNIPER GREEN GAME 🎮\n\n📋 RULES:\n• Choose a number between 1 and N (depending on grid)\n• Players take turns choosing a MULTIPLE \n  or DIVISOR of the previous number\n• Each number can only be played ONCE\n• The first number must be EVEN!\n• The player who cannot play loses the round\n\n⏱️  TIME PER MOVE:\n• 5s  : Fast, good level\n• 10s : Balanced, very good level (recommended)\n• 30s : Maximum, near-optimal\n\nAI uses time to:\n→ Calculate the best move\n→ Enrich its knowledge base\n→ Continuously improve\n\n📏 GRIDS:\n• 20-30 : Complete minimax possible\n• 40+    : Heuristic + learning\n\n👁️  BEGINNER MODE:\nShows available moves visually\n(ideal for learning)\n\n📜 HISTORY:\nFloating window showing all played moves\nwith colors (🟢 you, 🔴 AI)\n\n💾 EXPORT:\nSave your games in .txt format\n(Juniper Game Record)\n\n👨‍💻 DEVELOPMENT:\nCreated by Wouf (2018-2026)\n\n🌐 More info: site2wouf.fr/juniper",
+  
+  "warning.grid100.title": "Grid 100",
+  "warning.grid100.message": "💡 Grid 100:\n\n• Very long games (30+ moves)\n• Expert mode disabled\n• Hard mode available but may be slow (~20s/move)",
+  
+  "warning.hard100.title": "⚠️  Warning",
+  "warning.hard100.message": "Hard mode on grid 100:\n\n• ~20 seconds per AI move\n• ~10 minutes of AI calculation per game\n\nAre you sure you want to continue?",
+  
+  "resign.title": "🏳️  Resign?",
+  "resign.message": "Resign current game?\n(Victory given to AI)",
+  
+  "victory.title": "🏆 Victory!",
+  "victory.message": "🎉 Congratulations!\n\nYou won this round!",
+  
+  "defeat.title": "Defeat",
+  "defeat.message": "💻 AI won this round!",
+  
+  "stats.title": "AI Learning Stats",
+  "stats.header": "📊 AI Learning Statistics",
+  "stats.never": "Never",
+  "stats.no_data": "No learning data available.\nPlay a few games to see statistics!",
+  "stats.info": "💡 The more you play, the smarter the AI gets!",
+  
+  "error.no_lang.title": "Missing Language Files",
+  "error.no_lang.message": "Language files not found!\n\nEnsure the 'locales' folder exists with:\n- locales/fr.json\n- locales/en.json\n\nUsing default language (French)."
+}

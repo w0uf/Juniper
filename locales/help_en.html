@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help - Juniper-U</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            padding: 40px;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        
+        h2 {
+            color: #764ba2;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        li {
+            padding: 8px 0 8px 30px;
+            position: relative;
+        }
+        
+        li:before {
+            content: "▸";
+            color: #667eea;
+            font-weight: bold;
+            position: absolute;
+            left: 10px;
+        }
+        
+        .time-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .time-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-size: 1.1em;
+        }
+        
+        .time-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        .time-table tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .recommended {
+            background-color: #d4edda;
+            font-weight: bold;
+        }
+        
+        .info-box {
+            background: #e3f2fd;
+            border-left: 5px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .info-box strong {
+            color: #1976D2;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+            color: #7f8c8d;
+        }
+        
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .legend {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .color-box {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        
+        .player-color {
+            background-color: #2ecc71;
+        }
+        
+        .ai-color {
+            background-color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 JUNIPER GREEN</h1>
+        <div class="subtitle">The Mathematical Strategy Game</div>
+        
+        <div class="section">
+            <h2>📋 Game Rules</h2>
+            <ul>
+                <li>Choose a number between 1 and N (depending on grid size)</li>
+                <li>Players take turns choosing a <strong>MULTIPLE</strong> or <strong>DIVISOR</strong> of the previous number</li>
+                <li>Each number can only be played <strong>ONCE</strong></li>
+                <li>The <strong>first number must be EVEN</strong>!</li>
+                <li>The player who cannot play <strong>loses the round</strong></li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>⏱️ Time per Move</h2>
+            <table class="time-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Description</th>
+                        <th>Usage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>5s</strong></td>
+                        <td>Fast</td>
+                        <td>Quick games, good level</td>
+                    </tr>
+                    <tr class="recommended">
+                        <td><strong>10s</strong></td>
+                        <td>Balanced ⭐</td>
+                        <td>Recommended - Very good level</td>
+                    </tr>
+                    <tr>
+                        <td><strong>30s</strong></td>
+                        <td>Maximum</td>
+                        <td>Near-optimal level</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="info-box">
+                <strong>💡 How AI uses time:</strong><br>
+                → Calculate the best move<br>
+                → Enrich its knowledge base<br>
+                → Continuously improve
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📏 Grid Sizes</h2>
+            <table class="time-table">
+                <thead>
+                    <tr>
+                        <th>Grid</th>
+                        <th>AI Method</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>20-30</strong></td>
+                        <td>Complete Minimax</td>
+                        <td>Optimal possible</td>
+                    </tr>
+                    <tr>
+                        <td><strong>40+</strong></td>
+                        <td>Heuristic + Learning</td>
+                        <td>Very strong after a few games</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2>🎯 Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">👁️</div>
+                    <h3>Beginner Mode</h3>
+                    <p>Shows available moves (ideal for learning)</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📜</div>
+                    <h3>History</h3>
+                    <p>Floating window with all played moves</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💾</div>
+                    <h3>Export</h3>
+                    <p>Save your games as .txt files</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Adaptive AI</h3>
+                    <p>Improves by playing against you</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🎨 Legend</h2>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="color-box player-color"></div>
+                    <span>🟢 Your moves</span>
+                </div>
+                <div class="legend-item">
+                    <div class="color-box ai-color"></div>
+                    <span>🔴 AI moves</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>👨‍💻 Development:</strong> Created by Wouf (2018-2026)</p>
+            <p><strong>🌐 More info:</strong> <a href="https://site2wouf.fr/juniper" target="_blank">site2wouf.fr/juniper</a></p>
+        </div>
+    </div>
+</body>
+</html>
